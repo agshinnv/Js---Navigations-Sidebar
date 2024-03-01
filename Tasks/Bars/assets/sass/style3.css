@@ -1,0 +1,45 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 45%;
+  background-color: black;
+  transition: all 0.5s;
+}
+.footer h4 {
+  color: chocolate;
+}
+.footer .col-3 {
+  margin-top: 85px;
+}
+.footer ul {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.footer ul li {
+  text-decoration: none;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.footer ul li a:hover {
+  color: red;
+}
+
+.icons {
+  position: absolute;
+  left: 45%;
+  font-size: 19px;
+}
+.icons i {
+  cursor: pointer;
+  color: red;
+}
+
+.move-bar {
+  transform: translate(0, 270px);
+}/*# sourceMappingURL=style3.css.map */

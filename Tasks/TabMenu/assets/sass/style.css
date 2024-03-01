@@ -1,0 +1,21 @@
+.tab-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  gap: 35px;
+}
+.tab-menu .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 40px;
+  cursor: pointer;
+}
+.tab-menu .text {
+  width: 500px;
+  height: 200px;
+  font-size: 15px;
+}/*# sourceMappingURL=style.css.map */

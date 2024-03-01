@@ -1,0 +1,55 @@
+.right-bar{
+    height: 100vh;
+    width: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    transition: all 0.5s;
+
+    right: 0;
+
+    ul{
+        list-style: none;
+        font-size: 20px;
+        margin: 0 !important;
+        padding: 0 !important;
+        gap: 20px;
+
+
+        li{
+            line-height: 70px;
+
+            a{
+                text-decoration: none;
+                color: white;
+                transition: 0.5s;
+
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+    }
+
+    .icons{    
+        position: absolute;
+        top: 5px;
+        left: 5px;
+
+        i{
+            font-size: 30px;
+            color: red;
+            cursor: pointer;
+        }
+    
+    }
+
+}
+
+.move-bar{
+
+    transform: translate(258px, 0);
+
+}
